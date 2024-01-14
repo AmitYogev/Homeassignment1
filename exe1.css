@@ -1,0 +1,99 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color:C3E2C2;
+    font-size: 19px;
+}
+h1{
+    text-align: center; 
+    border-top: 2px solid #000;    /* גבול בחלק העליון בצבע שחור */
+    border-bottom: 2px solid #000; /* גבול בחלק התחתון בצבע שחור */
+    border-left: 2px solid #000;   /* גבול בצד שמאל בצבע שחור */
+    border-right: 2px solid #000;  /* גבול בצד ימני בצבע שחור */
+}
+.sec img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items:left; 
+    vertical-align: center;
+    align-content: center;
+    gap: 20px;
+    border: 1px solid darkgoldenrod;
+    margin-bottom: 20px;
+}
+#fruit_or_a_vegetable{
+   background-color:#d9edbf;
+
+}
+
+#Mexican_guacamole {
+    background-color:#c0e293;
+ }
+ #benefits_of_eating_Avocado {
+    background-color:#aedf6d;
+
+ }
+ #Salads_with_avocado {
+    text-align: center;
+    background-color:#90bc57;
+    margin-top: 20px;      
+    margin-bottom: 20px; 
+    border: 1px solid darkgoldenrod;
+  }
+  #Salads_with_avocado h2{
+    border-top: 2px solid #000;    /* גבול בחלק העליון בצבע שחור */
+    border-bottom: 2px solid #000; /* גבול בחלק התחתון בצבע שחור */
+    border-left: 2px solid #000;   /* גבול בצד שמאל בצבע שחור */
+    border-right: 2px solid #000;  /* גבול בצד ימני בצבע שחור */
+  }
+  .flex-box{
+    display: flex;
+ }
+ .card{
+    justify-content: center;
+    width: 200px;
+    height: 320px;
+    margin: 10px;
+    border: 5px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .flex-box > .card:hover{
+    background: #000;
+    color: aqua;
+  }
+  .card img{
+    width: 100%;
+    height: 180px;
+    max-height: 180px;
+    border-radius: 15%;
+  }
+  footer{
+    background-image: url('./images/footer.jpg'); 
+    background-size: cover;
+    background-position: center;      
+    padding: 20px 0; 
+    margin-top: 20px;      
+    margin-bottom: 20px;  
+    border: 1px solid darkgoldenrod;  
+    text-align: center;         
+  }
+  footer nav ul {
+    display: flex;
+    text-align: center;
+    list-style-type: none; /*מסיר את הנקודות */
+    justify-content: space-around;  /*עושה רווח יחסי בניהם */
+    padding: 0; /*מסיר את הרווח ברשימה */
+    margin: 0 10px;
+}
